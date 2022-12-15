@@ -13,24 +13,18 @@ int k;
 
 if (size > 0)
 {
-for (i = 0; i < size; i++)
+for (i = 0; i <= size; i++)
 {
-
-for (k = o; k < size; k++)
+for (k = o; k <= size; k++)
 {
-_putchar (35);
+_putchar ('#');
+}
+if (i == size - 1)
+{
+continue;
 }
 _putchar ('\n');
-
 }
-
 }
-
-else
-{
 _putchar ('\n');
 }
-
-}
-
-
