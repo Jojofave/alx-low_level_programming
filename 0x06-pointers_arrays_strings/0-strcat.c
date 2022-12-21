@@ -8,7 +8,7 @@
  *
  * Return: A pointer to the destination string @dest.
  */
-char *_strcat(char *dest, const char *src)
+char *_strcat(char *dest, char *src)
 {
 	 int length, j;
 
@@ -17,7 +17,7 @@ char *_strcat(char *dest, const char *src)
 	 {
 	length++;
 	 }
-	 for (j = 0; src[j] != '\0'; j++ length++)
+	 for (j = 0; src[j] != '\0'; j++) length++;
 	 {
 	dest[length] = src[j];
 	 }
