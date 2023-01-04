@@ -7,9 +7,9 @@
 int is_palindrome(char *s)
 {
 	int index = 0;
-	int len = find_strlen(s);
+	int len = s;
 
 	if (!(*s))
 		return (1);
-	return (check_palindrome(s, len, index));
+	return (is_palindrome(s, len, index));
 }
