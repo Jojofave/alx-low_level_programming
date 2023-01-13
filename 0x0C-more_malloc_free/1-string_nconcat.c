@@ -7,7 +7,8 @@
  * @n: index
  * Return: char pointer
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n) /*don't want a semi colon here*/
+char *string_nconcat(char *s1, char *s2,
+unsigned int n) /*don't want a semi colon here*/
 {
 	char *p;
 	unsigned int size1 = 0, size2 = 0, i;
