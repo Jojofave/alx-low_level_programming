@@ -1,0 +1,11 @@
+
+echo "Enter a number:"
+read number
+
+if [ "$number" -gt 5 ]; then
+    echo "The number is positive."
+elif [ "$number" -eq 5 ]; then
+    echo "The number is five."
+else
+    echo "The number is negative."
+fi
